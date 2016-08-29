@@ -1,0 +1,94 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: Verdana;
+}
+body{
+	margin:10px;
+}
+h1 {
+	margin-bottom: 40px;
+	text-align: center;
+	font-size:175%;
+}
+
+section {
+	width: 90%;
+	height: 100%;
+	border: 2px solid black;
+	overflow: auto;
+	margin-right: .5%;
+  	margin-left: .5%;
+  	margin-bottom: 20px;
+
+}
+
+p {
+	margin: 5px;
+}
+section.aqua {a
+	background-color: aqua;
+}
+section.lightblue {
+	background-color: lightblue;
+}
+section.aquamarine {
+	background-color: aquamarine;
+}
+div{
+	text-align: center;
+	border: 2px solid black;
+	border-top: none;
+	border-right: none;
+	margin-left: 60%;
+	font-size: 125%	
+}
+
+.lightgreen {
+	background-color: sandybrown;
+}
+
+.beige {
+	background-color: beige;
+}
+
+.lightpink {
+	background-color: lightpink;
+}
+
+.row {
+	width: 100%;
+}
+
+/*********** devices with minimum width of 992px****************/
+@media (min-width: 992px) {
+  .col-lg-4 {
+    float: left;  
+  }
+  .col-lg-4 {
+    width: 32.33%;
+  }
+}
+/*********** devices with width from 768px to 991px ************/
+@media (min-width: 768px) and (max-width: 991px) {
+.col-md-6, .col-md-12 {
+    float: left;
+    margin-bottom: 20px;
+  }
+  .col-md-6 {
+    width: 49%;
+  }
+  .col-md-12 {
+    width: 99%;
+  }
+}
+/*********** devices with maximum width of 767px****************/
+@media (max-width: 767px) {.col-sm-12 {
+	float: left;
+	margin-bottom: 20px;
+  }
+  .col-sm-12 {
+  	width: 99%;
+  }
+}
